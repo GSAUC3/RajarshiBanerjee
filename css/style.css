@@ -1,0 +1,41 @@
+.icon{
+    border-radius: 20px;;
+}
+
+.icon:hover{
+    border-radius:5px;
+}
+
+.menu-title:hover{
+    color: cyan;
+}
+
+#intro-example {
+    height: 400px;
+  }
+
+  /* Height for devices larger than 992px */
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 600px;
+    }
+  }
+
+  #ban:hover{
+    /* color: rgb(0, 255, 21); */
+    color: cyan
+  }
+  #univ:hover{
+    /* color: rgb(0, 255, 21); */
+    color:red;
+  }
+
+  body{
+      background-color:black;
+  }
+
+  
+th,
+td {
+  padding: 5px;
+}
