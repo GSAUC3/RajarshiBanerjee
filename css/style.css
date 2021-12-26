@@ -10,19 +10,19 @@
 }
 .menu-title:hover{
     color: cyan;
-}
-
-#intro-example {
+  }
+  
+  #intro-example {
     height: 400px;
   }
-
+  
   /* Height for devices larger than 992px */
   @media (min-width: 992px) {
     #intro-example {
       height: 600px;
     }
   }
-
+  
   #ban:hover{
     /* color: rgb(0, 255, 21); */
     color: cyan
@@ -31,18 +31,22 @@
     /* color: rgb(0, 255, 21); */
     color:red;
   }
-
+  
   body{
-      background-color:black;
+    background-color:black;
+  }
+  
+  
+  th,
+  td {
+    padding: 5px;
+  }
+  
+  #fname:hover{
+    color: Red;
   }
 
+  #lname:hover{
   
-th,
-td {
-  padding: 5px;
+    color:blue;
 }
-/* 
-.card img{
-  width: 110vh;
-  height: 60vh
-} */
