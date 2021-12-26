@@ -31,11 +31,11 @@
     /* color: rgb(0, 255, 21); */
     color:red;
   }
-  
+/*   
   body{
     background-color:black;
   }
-  
+   */
   
   th,
   td {
@@ -49,4 +49,27 @@
   #lname:hover{
   
     color:blue;
+}
+
+/* ----------------------------- */
+
+.parallax {
+  /* The image used */
+  /* background-image: url("https://images.wallpaperscraft.com/image/single/sea_beach_palm_trees_154309_1280x720.jpg"); */
+  background-image: url("https://mdbcdn.b-cdn.net/img/new/slides/041.webp");
+
+  /* Set a specific height */
+  min-height: 200px; 
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.funny{
+  position:relative;
+  bottom:3em;
 }

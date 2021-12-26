@@ -1,8 +1,11 @@
-const hamburgerButton = document.getElementById('hamburger')
+const hamburgerButton = document.getElementById('hamborgir')
+
 const navList = document.getElementById('nav-list')
 
 function toggleButton() {
-    navList.classList.toggle('show')
+    hamburgerButton.setAttribute("aria-expanded",0)
+    // navList.classList.toggle('show')
+    console.log("called")
 }
 
-hamburgerButton.addEventListener('click', toggleButton)
+
