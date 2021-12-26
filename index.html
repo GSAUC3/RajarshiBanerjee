@@ -21,27 +21,60 @@
 
 <body>
     <header class="d-print-none">
-        <nav class="navbar fixed-top navbar-dark bg-dark ">
-            <!-- <span style="color:rgb(0, 170, 255);"> RESUME</span> -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <!-- Container wrapper -->
 
-            <div><a href="#home"><img class="icon" src="./images/icon.jpg" style="width:30px; height: 30px;" alt=""></a>
+            <div class="container-fluid">
+
+                <div><a href="#home"><img class="icon" src="./images/icon.jpg" style="width:30px; height: 30px;"
+                            alt=""></a>
+                </div>
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#about" title="About"><span
+                                    class="menu-title">About</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span
+                                    class="menu-title">Work Experience</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span
+                                    class="menu-title">Education</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects" title="Projects"><span
+                                    class="menu-title">Projects</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span
+                                    class="menu-title">Skills</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span
+                                    class="menu-title">Contact</span></a></li>
+
+                        </li>
+
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
-
-            <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#about" title="About"><span
-                            class="menu-title">About</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span
-                            class="menu-title">Work Experience</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span
-                            class="menu-title">Education</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects" title="Projects"><span
-                            class="menu-title">Projects</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span
-                            class="menu-title">Skills</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span
-                            class="menu-title">Contact</span></a></li>
-            </ul>
+            <!-- Container wrapper -->
         </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div id="intro-example" class="p-5 text-center bg-image"
             style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');">
             <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);" id="home">
@@ -237,64 +270,132 @@
     <!-- WORK EXPERIENCE ends -->
 
 
-<!-- EDUCATION STARTS -->
-<div class="shadow-1-strong bg-purple my-5 p-5 text-white" id="education">
-    <div class="work-experience-section">
-        <h2 class="h2 fw-light mb-4">Education</h2>
-        <div class="timeline">
-            <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
-                <div class="timeline-head px-4 pt-3">
-                    <div class="h5">Bachelor's of Technology<br />
-                        <span class="h6"> in Optics and Optoelectronics Engineering </span><br>
-                        <span class="h6" style="color:rgb(11, 130, 248);">University of Calcutta</span>
-                    </div>
+    <!-- EDUCATION STARTS -->
+    <div class="shadow-1-strong bg-purple my-5 p-5 text-white" id="education">
+        <div class="work-experience-section">
+            <h2 class="h2 fw-light mb-4">Education</h2>
+            <div class="timeline">
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+                    <div class="timeline-head px-4 pt-3">
+                        <div class="h5">Bachelor's of Technology<br />
+                            <span class="h6"> in Optics and Optoelectronics Engineering </span><br>
+                            <span class="h6" style="color:rgb(11, 130, 248);">University of Calcutta</span>
+                        </div>
                     </div>
                     <div class="timeline-body px-4 pb-4">
                         <div class="text-white text-small mb-3"> 2018 - Present</div>
                         <div>
                             <ul>
-                                
+
                                 <li> Overall Percentage: 75.11%</li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
                     </div>
-                    <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
                     <div class="timeline-head px-4 pt-3">
-                        <div class="h5">Higher Secondary<br /><span class="h6"
-                            style="color:rgb(11, 130, 248);">Aditya Academy Secondary</span></div>
-                        </div>
-                        <div class="timeline-body px-4 pb-4">
-                            <div class="text-white text-small mb-3">2015 - 2017</div>
-                            <ul>
-                                
-                                <li>Stream : Science</li>
+                        <div class="h5">Higher Secondary<br /><span class="h6" style="color:rgb(11, 130, 248);">Aditya
+                                Academy Secondary</span></div>
+                    </div>
+                    <div class="timeline-body px-4 pb-4">
+                        <div class="text-white text-small mb-3">2015 - 2017</div>
+                        <ul>
+
+                            <li>Stream : Science</li>
                             <li> Overall percentage: 78%</li>
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
-                    <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
+                </div>
+                <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="200">
                     <div class="timeline-head px-4 pt-3">
-                        <div class="h5"> Secondary<br /><span class="h6"
-                            style="color:rgb(11, 130, 248);">Aditya Academy Secondary</span></div>
-                        </div>
-                        <div class="timeline-body px-4 pb-4">
-                            <div class="text-white text-small mb-3">2004 - 2015</div>
-                            <ul>
-                                
-                                
+                        <div class="h5"> Secondary<br /><span class="h6" style="color:rgb(11, 130, 248);">Aditya Academy
+                                Secondary</span></div>
+                    </div>
+                    <div class="timeline-body px-4 pb-4">
+                        <div class="text-white text-small mb-3">2004 - 2015</div>
+                        <ul>
+
+
                             <li> Overall CGPA: 7.4 (Class X C.B.S.E Boards)</li>
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- EDUCATION ends -->
+<div  class="shadow-1-strong bg-matte my-5 p-5 d-print-none ">
+
+    <h2 class="h2 fw-light mb-4 text-white" id="projects">Projects</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img
+                src="./images/fundus.jpg"
+                class="card-img-top"
+                alt="Hollywood Sign on The Hill"
+                
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Bachelor's Thesis</h5>
+                    <p class="card-text">
+                        Working on detection and classification of diabetic retinopathy(DR) using various image processing techniques and deep learning under the supervision of Dr. Uma Sankar at Indian Statistical Institute Kolkata (ISI Kolkata)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+                class="card-img-top"
+                alt="Palm Springs Road"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Sorting Algorithm Visualizer</h5>
+                    <p class="card-text">
+                        A GUI program completely made in python programming language and tkinter library to visualize various sorting algorithms.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+                class="card-img-top"
+                alt="Los Angeles Skyscrapers"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        This is a longer card with supporting text below as a natural lead-in to
+                        additional content.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+                class="card-img-top"
+                alt="Skyscrapers"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <!-- EDUCATION STARTS -->
-    
-    
+</div>
     
     
     
