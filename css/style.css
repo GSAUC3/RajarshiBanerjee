@@ -1,17 +1,58 @@
 .icon{
     border-radius: 20px;;
 }
-/* 
-.baal{
-  opacity: 0.5;
-  
-  z-index: -3;
+:root>* {
+  --md-primary-bg-color: #f1b500;
+  --md-primary-fg-color: #040404;
+  --md-secondary-fg-color: #ff0f0f;
+  --md-accent-fg-color: #fbc900;
 }
 
-.chompa{
-  z-index: -50;
-} */
+.typewriter h1 span{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
 
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.icon{
+  border-radius: 20px;;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.toolteep:hover .tooltiptext {
+  visibility: visible;
+}
 .icon:hover{
     border-radius:5px;
 }
@@ -66,12 +107,9 @@
 /* ----------------------------- */
 
 .parallax {
-  /* The image used */
-  background-image: url("https://www.teahub.io/photos/full/35-356032_wallpaper-of-aurora-borealis-girl-sky-woman-background.jpg");
-  /* background-image: url("https://mdbcdn.b-cdn.net/img/new/slides/041.webp"); */
-  
+  background-image: url(../images/bg2.png);
   /* Set a specific height */
-  min-height: 200px; 
+  min-height: 150px; 
   z-index: 5;
   
   /* Create the parallax scrolling effect */
@@ -87,13 +125,12 @@
 }
 
 #last{
-  background-image: url("https://wallpaperaccess.com/full/6563109.jpg");
+  background-image: url(../images/bg1.png);
 }
 #bugsbunny{
-  /* background-image: url("https://images.wallpaperscraft.com/image/single/sea_beach_palm_trees_154309_1280x720.jpg"); */
-  background-image: url("https://images.hdqwalls.com/wallpapers/aurora-sky-morning-4k-sv.jpg");
-  
-  min-height: 200px; 
+  background-image: url(../images/g.jpg);
+
+  min-height: 150px; 
   
   
   /* Create the parallax scrolling effect */
